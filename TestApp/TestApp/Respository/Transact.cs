@@ -17,7 +17,6 @@ namespace TestApp.Respository
             cmd.ExecuteNonQuery();
             conn.Close();
         }
-
         public void CreateWithParams(string desc, string phone, int user)
         {
             SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-VC8JTUE\SQLEXPRESS;Initial Catalog=notown;Integrated Security=True;");
