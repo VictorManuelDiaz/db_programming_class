@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,10 @@ namespace CinemaEFApp.Data.Models
         public Guid language_id { get; set; }
         public Boolean is_audio { get; set; }
         public Boolean is_subtitle { get; set; }
+        [ForeignKey("movie_id")]
+        public Movie movie { get; set; }
+        [ForeignKey("language_id")]
+        public Language language { get; set; }
     }
 
     class Movie_LaguageConfig : IEntityTypeConfiguration<Movie_Language>

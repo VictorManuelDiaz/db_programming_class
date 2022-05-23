@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaEFApp.Data.Migrations
 {
     [DbContext(typeof(CinemaDB))]
-    [Migration("20220518033431_001")]
-    partial class _001
+    [Migration("20220523154810_AddsForeignKeyInPivotTable")]
+    partial class AddsForeignKeyInPivotTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -137,17 +137,9 @@ namespace CinemaEFApp.Data.Migrations
                     b.Property<bool>("is_subtitle")
                         .HasColumnType("bit");
 
-                    b.Property<Guid?>("language_id1")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("movie_id1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("movie_id", "language_id");
 
-                    b.HasIndex("language_id1");
-
-                    b.HasIndex("movie_id1");
+                    b.HasIndex("language_id");
 
                     b.ToTable("tb_movie_language");
                 });
@@ -169,17 +161,21 @@ namespace CinemaEFApp.Data.Migrations
 
             modelBuilder.Entity("CinemaEFApp.Data.Models.Movie_Language", b =>
                 {
-                    b.HasOne("CinemaEFApp.Data.Models.Language", "Language")
+                    b.HasOne("CinemaEFApp.Data.Models.Language", "language")
                         .WithMany()
-                        .HasForeignKey("language_id1");
+                        .HasForeignKey("language_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("CinemaEFApp.Data.Models.Movie", "Movie")
+                    b.HasOne("CinemaEFApp.Data.Models.Movie", "movie")
                         .WithMany()
-                        .HasForeignKey("movie_id1");
+                        .HasForeignKey("movie_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("Language");
+                    b.Navigation("language");
 
-                    b.Navigation("Movie");
+                    b.Navigation("movie");
                 });
 #pragma warning restore 612, 618
         }

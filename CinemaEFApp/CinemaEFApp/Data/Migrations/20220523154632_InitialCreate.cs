@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CinemaEFApp.Data.Migrations
 {
-    public partial class _001 : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,6 +48,20 @@ namespace CinemaEFApp.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "tb_movie_language",
+                columns: table => new
+                {
+                    movie_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    language_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    is_audio = table.Column<bool>(type: "bit", nullable: false),
+                    is_subtitle = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tb_movie_language", x => new { x.movie_id, x.language_id });
+                });
+
+            migrationBuilder.CreateTable(
                 name: "tb_movie",
                 columns: table => new
                 {
@@ -81,34 +95,6 @@ namespace CinemaEFApp.Data.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "tb_movie_language",
-                columns: table => new
-                {
-                    movie_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    language_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    movie_id1 = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    language_id1 = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    is_audio = table.Column<bool>(type: "bit", nullable: false),
-                    is_subtitle = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_tb_movie_language", x => new { x.movie_id, x.language_id });
-                    table.ForeignKey(
-                        name: "FK_tb_movie_language_tb_language_language_id1",
-                        column: x => x.language_id1,
-                        principalTable: "tb_language",
-                        principalColumn: "language_id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_tb_movie_language_tb_movie_movie_id1",
-                        column: x => x.movie_id1,
-                        principalTable: "tb_movie",
-                        principalColumn: "movie_id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_tb_movie_clasification_id",
                 table: "tb_movie",
@@ -118,28 +104,18 @@ namespace CinemaEFApp.Data.Migrations
                 name: "IX_tb_movie_genre_id",
                 table: "tb_movie",
                 column: "genre_id");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_tb_movie_language_language_id1",
-                table: "tb_movie_language",
-                column: "language_id1");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_tb_movie_language_movie_id1",
-                table: "tb_movie_language",
-                column: "movie_id1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "tb_movie_language");
-
-            migrationBuilder.DropTable(
                 name: "tb_language");
 
             migrationBuilder.DropTable(
                 name: "tb_movie");
+
+            migrationBuilder.DropTable(
+                name: "tb_movie_language");
 
             migrationBuilder.DropTable(
                 name: "tb_clasification");

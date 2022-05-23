@@ -4,14 +4,16 @@ using CinemaEFApp.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CinemaEFApp.Data.Migrations
 {
     [DbContext(typeof(CinemaDB))]
-    partial class CinemaDBModelSnapshot : ModelSnapshot
+    [Migration("20220523154632_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -137,8 +139,6 @@ namespace CinemaEFApp.Data.Migrations
 
                     b.HasKey("movie_id", "language_id");
 
-                    b.HasIndex("language_id");
-
                     b.ToTable("tb_movie_language");
                 });
 
@@ -155,25 +155,6 @@ namespace CinemaEFApp.Data.Migrations
                     b.Navigation("clasification");
 
                     b.Navigation("genre");
-                });
-
-            modelBuilder.Entity("CinemaEFApp.Data.Models.Movie_Language", b =>
-                {
-                    b.HasOne("CinemaEFApp.Data.Models.Language", "language")
-                        .WithMany()
-                        .HasForeignKey("language_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("CinemaEFApp.Data.Models.Movie", "movie")
-                        .WithMany()
-                        .HasForeignKey("movie_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("language");
-
-                    b.Navigation("movie");
                 });
 #pragma warning restore 612, 618
         }
