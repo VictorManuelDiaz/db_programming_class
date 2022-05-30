@@ -5798,7 +5798,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\dsistema2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5806,11 +5806,11 @@
       "projectUniqueName": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj",
       "projectName": "CinemaEFApp",
       "projectPath": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj",
-      "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\dsistema2\\.nuget\\packages\\",
       "outputPath": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dsistema2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

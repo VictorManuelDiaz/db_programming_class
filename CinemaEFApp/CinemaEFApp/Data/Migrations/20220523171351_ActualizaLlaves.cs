@@ -2,7 +2,7 @@
 
 namespace CinemaEFApp.Data.Migrations
 {
-    public partial class AddsForeignKeyInPivotTable : Migration
+    public partial class ActualizaLlaves : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

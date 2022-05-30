@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaEFApp.Data.Migrations
 {
     [DbContext(typeof(CinemaDB))]
-    [Migration("20220523154810_AddsForeignKeyInPivotTable")]
-    partial class AddsForeignKeyInPivotTable
+    [Migration("20220523171351_ActualizaLlaves")]
+    partial class ActualizaLlaves
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

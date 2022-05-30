@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj": {}
+    "E:\\GitHub\\db_programming_class\\MusicPlayer\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj": {
+    "E:\\GitHub\\db_programming_class\\MusicPlayer\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj",
-        "projectName": "CinemaEFApp",
-        "projectPath": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\CinemaEFApp.csproj",
-        "packagesPath": "C:\\Users\\dsistema2\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\db_programming_class\\CinemaEFApp\\CinemaEFApp\\obj\\",
+        "projectUniqueName": "E:\\GitHub\\db_programming_class\\MusicPlayer\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dsistema2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,22 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

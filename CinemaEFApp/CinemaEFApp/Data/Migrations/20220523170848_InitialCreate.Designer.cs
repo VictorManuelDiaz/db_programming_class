@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaEFApp.Data.Migrations
 {
     [DbContext(typeof(CinemaDB))]
-    [Migration("20220523154632_InitialCreate")]
+    [Migration("20220523170848_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
