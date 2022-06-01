@@ -1,0 +1,16 @@
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.deps.json
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.dll
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Domain.dll
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Domain.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.csproj.AssemblyReference.cache
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.AssemblyInfoInputs.cache
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.AssemblyInfo.cs
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.csproj.CoreCompileInputs.cache
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.csproj.CopyComplete
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.dll
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.runtimeconfig.json
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.runtimeconfig.dev.json
+E:\Projects\MusicPlayer\MusicPlayer.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.genruntimeconfig.cache

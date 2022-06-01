@@ -1,0 +1,13 @@
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.deps.json
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.runtimeconfig.json
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.runtimeconfig.dev.json
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.dll
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.csproj.AssemblyReference.cache
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.AssemblyInfoInputs.cache
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.AssemblyInfo.cs
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.csproj.CoreCompileInputs.cache
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.dll
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.genruntimeconfig.cache
