@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+      "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
       "projectName": "MusicPlayer.Core.Domain",
-      "projectPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+      "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
       "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\obj\\",
+      "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",

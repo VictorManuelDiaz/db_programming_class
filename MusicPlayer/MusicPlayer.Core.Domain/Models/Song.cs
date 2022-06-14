@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace MusicPlayer.Core.Domain.Models
@@ -10,6 +11,8 @@ namespace MusicPlayer.Core.Domain.Models
         public string title { get; set; }
         public string image { get; set; }
         public TimeSpan length { get; set; }
+        [NotMapped]
+        public string length_str { get; set; }
         public string artist { get; set; }
         public string album { get; set; }
         public DateTime created_at { get; set; }

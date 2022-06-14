@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3YIUD10P8soIUbvlxxLUNJlAbwsfsOU4tG7HT3DJxKqQ48U9ajdBCm1TWXJoo8ofLRJ1bOkrbNxRWQXh/sR6A==",
+  "dgSpecHash": "5UJ8KjDKJBBsxbgqfO4Ck4qHBEaQJGopu5MDarzrhdjPVTzoX3zwgUx+w6hPhi/Fa7QmKjcqM+w9D1nICoVksw==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+  "projectFilePath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\administrador\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\administrador\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

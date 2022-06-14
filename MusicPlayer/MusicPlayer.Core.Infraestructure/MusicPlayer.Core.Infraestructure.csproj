@@ -14,10 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\MusicPlayer.Adaptors.SQLServerDataAccess\MusicPlayer.Adaptors.SQLServerDataAccess.csproj" />
     <ProjectReference Include="..\MusicPlayer.Core.Domain\MusicPlayer.Core.Domain.csproj" />
   </ItemGroup>
 

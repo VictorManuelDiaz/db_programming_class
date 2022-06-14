@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MusicPlayer.Core.Domain\MusicPlayer.Core.Domain.csproj" />
+    <ProjectReference Include="..\MusicPlayer.Core.Infraestructure\MusicPlayer.Core.Infraestructure.csproj" />
+  </ItemGroup>
+
 </Project>

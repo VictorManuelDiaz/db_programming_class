@@ -11,3 +11,8 @@ E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1
 E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.dll
 E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.pdb
 E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.genruntimeconfig.cache
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.dll
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Domain.dll
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Adaptors.SQLServerDataAccess.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\bin\Debug\netcoreapp3.1\MusicPlayer.Core.Domain.pdb
+E:\Projects\MusicPlayer\MusicPlayer.Core.Infraestructure\obj\Debug\netcoreapp3.1\MusicPlayer.Core.Infraestructure.csproj.CopyComplete

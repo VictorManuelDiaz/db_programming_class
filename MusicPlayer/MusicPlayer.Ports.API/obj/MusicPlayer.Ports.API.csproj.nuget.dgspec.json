@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Ports.API\\MusicPlayer.Ports.API.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+        "projectName": "MusicPlayer.Adaptors.SQLServerDataAccess",
+        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\MusicPlayer.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\MusicPlayer.Core.Application.csproj",
+        "projectName": "MusicPlayer.Core.Application",
+        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\MusicPlayer.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              },
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+        "projectName": "MusicPlayer.Core.Domain",
+        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+        "projectName": "MusicPlayer.Core.Infraestructure",
+        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
+              },
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\MusicPlayer\\MusicPlayer.Ports.API\\MusicPlayer.Ports.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Ports.API\\MusicPlayer.Ports.API.csproj",
+        "projectName": "MusicPlayer.Ports.API",
+        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Ports.API\\MusicPlayer.Ports.API.csproj",
+        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Ports.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
+              },
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\MusicPlayer.Core.Application.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Application\\MusicPlayer.Core.Application.csproj"
+              },
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              },
+              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {
+                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

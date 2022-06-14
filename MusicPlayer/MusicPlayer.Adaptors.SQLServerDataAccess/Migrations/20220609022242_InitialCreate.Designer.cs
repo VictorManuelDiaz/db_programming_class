@@ -10,7 +10,7 @@ using MusicPlayer.Adaptors.SQLServerDataAccess.Contexts;
 namespace MusicPlayer.Adaptors.SQLServerDataAccess.Migrations
 {
     [DbContext(typeof(PlaylistDB))]
-    [Migration("20220601143342_InitialCreate")]
+    [Migration("20220609022242_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

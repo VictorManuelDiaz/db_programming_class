@@ -9,6 +9,8 @@ namespace MusicPlayer.Core.Infraestructure.Repository.Abstract
     public interface IDetailRepository<Entity, TransactionId> : ICreate<Entity>, ITransaction
     {
         List<Entity> GetDetailsByTransaction(TransactionId transactionId);
+
+        void Cancel(TransactionId transactionId);
     }
 }
 

@@ -1521,6 +1521,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MusicPlayer.Adaptors.SQLServerDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "MusicPlayer.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MusicPlayer.Adaptors.SQLServerDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MusicPlayer.Adaptors.SQLServerDataAccess.dll": {}
+        }
+      },
       "MusicPlayer.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5803,6 +5818,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "MusicPlayer.Adaptors.SQLServerDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../MusicPlayer.Adaptors.SQLServerDataAccess/MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+      "msbuildProject": "../MusicPlayer.Adaptors.SQLServerDataAccess/MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
+    },
     "MusicPlayer.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../MusicPlayer.Core.Domain/MusicPlayer.Core.Domain.csproj",
@@ -5814,6 +5834,7 @@
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "MusicPlayer.Adaptors.SQLServerDataAccess >= 1.0.0",
       "MusicPlayer.Core.Domain >= 1.0.0"
     ]
   },
@@ -5823,11 +5844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+      "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
       "projectName": "MusicPlayer.Core.Infraestructure",
-      "projectPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+      "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\obj\\",
+      "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5844,8 +5865,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
-              "projectPath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+            "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+              "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
+            },
+            "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+              "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
             }
           }
         }

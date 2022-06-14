@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9+xqQHlTtQ5mto++/qBa8FIC4rj3f9bm0XNh5xr8x6pC7IrDjNasbdxRu15l34vm7+wPBtG5p77rc3EfgoNnQ==",
+  "dgSpecHash": "KLnI4wCVkmK0HP4/OWp+7vgA/IWE0/qVZrbuogolSavf6FBUS+51PxmbEWI4ZdlaLccOqzLvxokgxntpd18QWg==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\db_programming_class\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+  "projectFilePath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\administrador\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\administrador\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
