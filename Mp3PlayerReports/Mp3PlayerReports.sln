@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mp3PlayerReports", ".", "{DC3E9C0D-F8FF-45AC-93A9-D84AA417C3D3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64030"
+		Debug.AspNetCompiler.PhysicalPath = "..\Mp3PlayerReports\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64030\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64030"
+		Release.AspNetCompiler.PhysicalPath = "..\Mp3PlayerReports\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64030\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64030"
+		SlnRelativePath = "..\Mp3PlayerReports\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3E9C0D-F8FF-45AC-93A9-D84AA417C3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E9C0D-F8FF-45AC-93A9-D84AA417C3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91B3FBB3-717B-4BE6-A000-CBE7CC7DBDCD}
+	EndGlobalSection
+EndGlobal
