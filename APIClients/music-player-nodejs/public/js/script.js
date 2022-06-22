@@ -9,6 +9,14 @@ function getFormattedDuration(length) {
     return moment.utc(moment.duration(length).asMilliseconds()).format('mm:ss')
 }
 
+$(document).on('click', '#btn-report', function() {
+    window.open(
+        'http://localhost:64030/Playlist.aspx?id=172AD322-CFA8-4E87-8357-361F6263730E&file=2',
+        '',
+        'width=1000,height=1000,toolbar=yes'
+    )
+})
+
 function loadData() {
     let songs = sendRequest('GET', 'song');
     let rows = '';

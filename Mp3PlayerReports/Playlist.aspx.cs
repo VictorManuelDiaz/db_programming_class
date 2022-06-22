@@ -18,7 +18,11 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-VC8JTUE\SQLEXPRESS;Initial Catalog=musicplayer;Integrated Security=True;");
+        SqlConnection cn = new SqlConnection(
+            @"Data Source=DESKTOP-VC8JTUE\SQLEXPRESS;
+            Initial Catalog=musicplayer;
+            Integrated Security=True;"
+        );
         SqlCommand cmd = new SqlCommand("SELECT * FROM vw_playlist;SELECT * FROM vw_added_songs;", cn);
         SqlDataAdapter adapter = new SqlDataAdapter(cmd);
         DataSet ds = new DataSet();
@@ -29,8 +33,24 @@ public partial class _Default : System.Web.UI.Page
         rp.SetDataSource(ds.Tables["table"]);
         rp.Subreports[0].SetDataSource(ds.Tables["table1"]);
 
-        CrystalReportViewer1.ReportSource=rp;
-        rp.ExportToHttpResponse(ExportFormatType.PortableDocFormat, Response, false, "Informe de reproductor");
+        //Añadir parámetro
+        rp.SetParameterValue("IdPlaylist", Request["id"]);
+        CrystalReportViewer1.ReportSource = rp;
+
+        int fileType = int.Parse(Request["file"]);
+
+        switch (fileType)
+        {
+            case 1:
+                rp.ExportToHttpResponse(ExportFormatType.PortableDocFormat, Response, false, "Informe de reproductor");
+                break;
+            case 2:
+                rp.ExportToHttpResponse(ExportFormatType.Excel, Response, false, "Informe de reproductor");
+                break;
+        }
+
+        
+        
 
     }
 }
