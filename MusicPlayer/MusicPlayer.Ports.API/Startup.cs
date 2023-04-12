@@ -11,6 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using MusicPlayer.Adaptors.SQLServerDataAccess.Contexts;
+using AutoMapper;
+using System.Text;
+
 namespace MusicPlayer.Ports.API
 {
     public class Startup
@@ -25,10 +31,36 @@ namespace MusicPlayer.Ports.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            //Configurar el middleware de autenticación
+            services
+               .AddAuthentication(x =>
+               {
+                   x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                   x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+               }).AddJwtBearer(x =>
+               {
+                   x.RequireHttpsMetadata = false;
+                   x.SaveToken = true;
+                   x.TokenValidationParameters = new TokenValidationParameters
+                   {
+                       IssuerSigningKey = new SymmetricSecurityKey(
+                           Encoding.ASCII.GetBytes(Configuration["JWT:Secret"])
+                       ),
+                       ValidateAudience = false,
+                       ValidateIssuerSigningKey = true,
+                       ValidateIssuer = false
+                   };
+               });
+
+            services.AddAuthorization();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddDbContext<PlaylistDB>();
+            services.AddControllers().AddNewtonsoftJson();
+
+
             services.AddCors(options =>
                 options.AddDefaultPolicy(builder =>
-                    builder.WithOrigins("http://localhost:5000", "http://localhost:3000")
+                    builder.WithOrigins("http://localhost:5000", "http://localhost:3001")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                 )
@@ -49,6 +81,8 @@ namespace MusicPlayer.Ports.API
 
             app.UseCors();
 
+            app.UseAuthentication();
+            //Añadiendo middleware de autenticación
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

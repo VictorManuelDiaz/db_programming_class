@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {}
+    "F:\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+    "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+        "projectUniqueName": "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
         "projectName": "MusicPlayer.Adaptors.SQLServerDataAccess",
-        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
-        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\obj\\",
+        "projectPath": "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj",
+        "packagesPath": "C:\\Users\\dsistema2\\.nuget\\packages\\",
+        "outputPath": "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dsistema2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
-                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
               }
             }
           }
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+    "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+        "projectUniqueName": "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
         "projectName": "MusicPlayer.Core.Domain",
-        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\obj\\",
+        "projectPath": "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\dsistema2\\.nuget\\packages\\",
+        "outputPath": "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dsistema2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,7 +136,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {
+    "F:\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+        "projectUniqueName": "F:\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
         "projectName": "MusicPlayer.Core.Infraestructure",
-        "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\administrador\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\obj\\",
+        "projectPath": "F:\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\MusicPlayer.Core.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\dsistema2\\.nuget\\packages\\",
+        "outputPath": "F:\\MusicPlayer\\MusicPlayer.Core.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dsistema2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,11 +174,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
-                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
+              "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj": {
+                "projectPath": "F:\\MusicPlayer\\MusicPlayer.Adaptors.SQLServerDataAccess\\MusicPlayer.Adaptors.SQLServerDataAccess.csproj"
               },
-              "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
-                "projectPath": "E:\\Projects\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
+              "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj": {
+                "projectPath": "F:\\MusicPlayer\\MusicPlayer.Core.Domain\\MusicPlayer.Core.Domain.csproj"
               }
             }
           }
@@ -204,6 +206,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.14.0, )"
             }
           },
           "imports": [
@@ -212,7 +218,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -221,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,7 +15,7 @@ const initialValues = {
     albumError: false
 };
 
-const API_URL = "http://localhost:53125/api/";
+const API_URL = "http://localhost:5015/api/v1/";
 
 const Songs = () => {
     const [values, setValues] = React.useState(initialValues);
@@ -40,10 +40,10 @@ const Songs = () => {
     };
 
     const loadData = () => {
-        const route = `${API_URL}song`;
+        const route = `${API_URL}role/get_all`;
         sendRequest("GET", route).then(data => {
             setSongs(data);
-            console.log('songs', data)
+            console.log('roles', data)
         });
     }
 

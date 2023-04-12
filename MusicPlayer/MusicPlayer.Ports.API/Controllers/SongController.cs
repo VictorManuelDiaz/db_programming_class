@@ -8,6 +8,8 @@ using MusicPlayer.Core.Domain.Models;
 using System.Collections.Generic;
 using System;
 
+using Microsoft.AspNetCore.Authorization;
+
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MusicPlayer.Ports.API.Controllers
@@ -27,6 +29,7 @@ namespace MusicPlayer.Ports.API.Controllers
 
         // GET: api/<SongController>
         [HttpGet]
+        [Authorize]
         public ActionResult<IEnumerable<Song>> Get()
         {
             SongUseCase service = CreateService();
